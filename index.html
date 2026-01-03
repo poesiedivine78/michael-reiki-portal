@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starseed Cosmic Angel - Michael Furtak | Reiki & Éveil Énergétique</title>
+    <meta name="description" content="Découvrez l'univers de Michael Furtak, Maître Praticien Reiki. Soins Usui et Kundalini pour un alignement profond." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300&family=Inter:wght@300;400;600&family=Manrope:wght@200;400;700;800&display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        background-color: #020617;
+        color: #ffffff;
+        font-family: 'Inter', sans-serif;
+        overflow-x: hidden;
+      }
+      h1, h2, h3, h4 { font-family: 'Manrope', sans-serif; }
+      .serif-quote { font-family: 'Cormorant Garamond', serif; }
+      ::selection { background: #C084FC; color: #000; }
+      ::-webkit-scrollbar { width: 8px; }
+      ::-webkit-scrollbar-track { background: #020617; }
+      ::-webkit-scrollbar-thumb { background: #1E293B; border-radius: 4px; }
+      ::-webkit-scrollbar-thumb:hover { background: #8B5CF6; }
+      .glass {
+        background: rgba(15, 23, 42, 0.4);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 1px solid rgba(192, 132, 252, 0.1);
+      }
+      
+      .stars-vibrant {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: 
+          radial-gradient(1px 1px at 20px 30px, #fff, rgba(0,0,0,0)),
+          radial-gradient(1.5px 1.5px at 40px 70px, #C084FC, rgba(0,0,0,0)),
+          radial-gradient(1px 1px at 50px 160px, #fff, rgba(0,0,0,0)),
+          radial-gradient(2px 2px at 90px 40px, #3B82F6, rgba(0,0,0,0)),
+          radial-gradient(1.5px 1.5px at 130px 80px, #fff, rgba(0,0,0,0));
+        background-repeat: repeat;
+        background-size: 250px 250px;
+        animation: twinkle 4s ease-in-out infinite alternate;
+      }
+      @keyframes twinkle {
+        from { opacity: 0.2; transform: scale(1); }
+        to { opacity: 0.8; transform: scale(1.05); }
+      }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+        "react/": "https://esm.sh/react@^19.2.3/",
+        "react": "https://esm.sh/react@^19.2.3",
+        "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+      }
+    }
+    </script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
